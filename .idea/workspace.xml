@@ -20,11 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb3c4823-2713-4209-b276-d37995f0d59e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/wsgi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/ressources/authentification.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ressources/authentification.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/ressources/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ressources/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/Login.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +57,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\benja\Documents\GitHub\LearnSmart" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\benja\Documents\GitHub\LearnSmart\backend\database\models" />
       <recent name="C:\Users\benja\Documents\GitHub\LearnSmart\backend\database" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\benja\Documents\GitHub\LearnSmart" />
     </key>
   </component>
   <component name="RunManager">
@@ -90,6 +89,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app" />
         <item itemvalue="Python.app" />
         <item itemvalue="Python.app" />
         <item itemvalue="Python.app" />
