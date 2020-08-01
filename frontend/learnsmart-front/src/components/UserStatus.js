@@ -31,7 +31,7 @@ export default class UserStatus extends Component {
         }; 
     }
     getAllVisitedTopic(){
-        axios.get('http://localhost:5000/api/score',
+        axios.get('https://learnsmart-app.herokuapp.com/api/score',
         {
             headers: {
             'Authorization':`Bearer ${localStorage.getItem('token')}` 
@@ -47,7 +47,7 @@ export default class UserStatus extends Component {
             })
     }
     getSerieData(){
-        axios.get('http://localhost:5000/api/lastrecord',
+        axios.get('https://learnsmart-app.herokuapp.com/api/lastrecord',
         {
             headers: {
             'Authorization':`Bearer ${localStorage.getItem('token')}` 

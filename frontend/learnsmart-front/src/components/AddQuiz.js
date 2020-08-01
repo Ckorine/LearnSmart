@@ -17,7 +17,8 @@ export default class AddTopic extends Component{
         }
     }
     componentDidMount() {
-        axios.get('http://localhost:5000/api/topics',{ headers: {
+        //http://localhost:5000
+        axios.get('https://learnsmart-app.herokuapp.com/api/topics',{ headers: {
             'Authorization': `Bearer ${localStorage.getItem('token')}`
           }
         })
@@ -52,7 +53,7 @@ export default class AddTopic extends Component{
             status:this.state.status
 
         };
-        axios.post('http://localhost:5000/api/quiz', quizObject,
+        axios.post('https://learnsmart-app.herokuapp.com/api/quiz', quizObject,
         { headers: {
             'Authorization': `Bearer ${localStorage.getItem('token')}`
           }

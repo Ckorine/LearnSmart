@@ -19,7 +19,7 @@ export default class AddTopic extends Component{
         const topicObject = {
             name: this.state.topicName,
         };
-        axios.post('http://localhost:5000/api/topics', topicObject,
+        axios.post('https://learnsmart-app.herokuapp.com/api/topics', topicObject,
         {
             headers: {
                 'Authorization': `Bearer ${localStorage.getItem('token')}`

@@ -37,7 +37,7 @@ getQuestions(){
         if(this.props){
              console.log(params.topic_name)
             try{
-                axios.get(`http://localhost:5000/api/singlechoice/${params.topic_name}`,
+                axios.get(`https://learnsmart-app.herokuapp.com/api/singlechoice/${params.topic_name}`,
                 {
                     headers: {
                         'Authorization': `Bearer ${localStorage.getItem('token')}`
@@ -59,7 +59,7 @@ addScore(){
 	const { match: { params } } = this.props;
 	if(this.props){
 	try{
-		axios.post(`http://localhost:5000/api/score`,{"relatedtopic":params.topic_name,"score":this.state.score},
+		axios.post(`https://learnsmart-app.herokuapp.com/api/score`,{"relatedtopic":params.topic_name,"score":this.state.score},
 		{
 			headers: {
 				'Authorization': `Bearer ${localStorage.getItem('token')}`

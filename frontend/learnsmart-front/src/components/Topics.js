@@ -8,7 +8,7 @@ export default class Topics extends Component{
     }
     componentDidMount() {
        // headers = { "Accept": "application/json", "Content-Type": "application/json", "Authorization": "Bearer {}".format(token)}
-        axios.get('http://localhost:5000/api/topics',
+        axios.get('https://learnsmart-app.herokuapp.com/api/topics',
         {
             headers: {
             'Authorization':`Bearer ${localStorage.getItem('token')}` 

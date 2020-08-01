@@ -45,7 +45,7 @@ export default class ShareData extends Component {
     componentDidMount() {
         this._isMounted = true;
 
-        axios.get('http://localhost:5000/api/topics',
+        axios.get('https://learnsmart-app.herokuapp.com/api/topics',
         {
             headers: {
             'Authorization':`Bearer ${localStorage.getItem('token')}` 
@@ -72,7 +72,7 @@ export default class ShareData extends Component {
             link: this.state.link
           };
         
-        axios.post('http://localhost:5000/api/upload', userObject,{ headers: {
+        axios.post('https://learnsmart-app.herokuapp.com/api/upload', userObject,{ headers: {
             'Authorization': `Bearer ${localStorage.getItem('token')}`
           }
         })

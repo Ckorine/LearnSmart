@@ -26,7 +26,7 @@ export default class Logout extends Component {
     componentDidMount() {
       //this._isMounted = true;
       this.removeItemsFromLocalStorage();
-        axios.get('http://localhost:5000/api/auth/logout',
+        axios.get('https://learnsmart-app.herokuapp.com/api/auth/logout',
         {
             headers: {
             'Authorization':`Bearer ${localStorage.getItem('token')}`

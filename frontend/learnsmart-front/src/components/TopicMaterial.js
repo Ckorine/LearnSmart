@@ -16,7 +16,7 @@ export default class TopicMaterial extends Component {
 	if(this.props){
         this.setState({topic_name:params.topic_name})
 		try{
-                axios.post('http://localhost:5000/api/showUploads',{"topicname":params.topic_name},
+                axios.post('https://learnsmart-app.herokuapp.com/api/showUploads',{"topicname":params.topic_name},
                 {
                     headers: {
                         'Authorization': `Bearer ${localStorage.getItem('token')}`

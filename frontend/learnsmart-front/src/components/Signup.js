@@ -32,7 +32,7 @@ export default class SignUp extends Component {
             email: this.state.email,
             password:this.state.password
         };
-        axios.post('http://localhost:5000/api/auth/signup', userObject)
+        axios.post('https://learnsmart-app.herokuapp.com/api/auth/signup', userObject)
         .then((res) => {
             this.props.updateUserData(this.state.username,this.state.email)
             console.log(res.data)

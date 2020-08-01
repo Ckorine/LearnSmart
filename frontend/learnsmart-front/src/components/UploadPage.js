@@ -24,7 +24,7 @@ export default class UploadPage extends Component {
             topicname: topic
         };
         console.log(topicName, this.props.uploadsListFilled);
-        axios.post('http://localhost:5000/api/showUploads', topicName,
+        axios.post('https://learnsmart-app.herokuapp.com/api/showUploads', topicName,
         { headers: {
             'Authorization': `Bearer ${localStorage.getItem('token')}`
           }

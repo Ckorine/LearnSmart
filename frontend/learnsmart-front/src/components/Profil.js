@@ -43,7 +43,7 @@ export default class Profil extends Component {
         userID: userID,
       };
      
-      axios.post('http://localhost:5000/api/userData', userObject)
+      axios.post('https://learnsmart-app.herokuapp.com/api/userData', userObject)
       .then((res) => {
           if (res.status === 200) {
               this.props.updateUserData(res.data.userData.username, res.data.userData.email);
@@ -118,7 +118,7 @@ export default class Profil extends Component {
         actualPassWord: this.state.actualPassWord,
         newPassword:this.state.newPassword
     };
-    axios.post('http://localhost:5000/api/auth/changePassword', userObject)
+    axios.post('https://learnsmart-app.herokuapp.com/api/auth/changePassword', userObject)
     .then((res) => {
         if (res.status === 200) {
           window.location.reload(); 
@@ -178,7 +178,7 @@ export default class Profil extends Component {
         userName: this.state.userName,
         email:this.state.email
     };
-    axios.post('http://localhost:5000/api/changeUserData', userObject)
+    axios.post('https://learnsmart-app.herokuapp.com/api/changeUserData', userObject)
     .then((res) => {
         if (res.status === 200) {
           this.setState({ dataChanged: true, showUserDataForm: false});

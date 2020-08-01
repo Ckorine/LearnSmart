@@ -29,7 +29,7 @@ export default class Login extends Component {
             email: this.state.email,
             password:this.state.password
         };
-        axios.post('http://localhost:5000/api/auth/login', userObject)
+        axios.post('https://learnsmart-app.herokuapp.com/api/auth/login', userObject)
         .then((res) => {
             console.log(res.data.access_token);
             localStorage.setItem('token',res.data.access_token)

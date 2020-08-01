@@ -10,7 +10,7 @@ export default class Quiz extends Component{
         if(this.props){
              console.log(params.topic_name)
             try{
-                axios.get(`http://localhost:5000/api/quizbytopic/${params.topic_name}`,
+                axios.get(`https://learnsmart-app.herokuapp.com/api/quizbytopic/${params.topic_name}`,
                 {
                     headers: {
                         'Authorization': `Bearer ${localStorage.getItem('token')}`
