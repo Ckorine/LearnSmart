@@ -11,7 +11,9 @@ from backend.ressources.routes import initialize_routes
 from flask_jwt_extended import JWTManager
 
 from flask_cors import CORS
-
+MONGO_URL = os.environ.get('MONGO_URL')
+if not MONGO_URL:
+    MONGO_URL = 'mongodb://localhost/quizz-db'
 app = Flask(__name__)
 cors = CORS(app)
 app.config.from_envvar('ENV_FILE_LOCATION')
@@ -21,8 +23,9 @@ api = Api(app)
 jwt = JWTManager(app)
 bcrypt = Bcrypt(app)
 app.config['MONGODB_SETTINGS'] = {
-    'host': 'mongodb://localhost/quizz-db'
+    'host': MONGO_URL
 }
+#mongodb+srv://LearnsmartAdmin:xBXihGRjsmcGML3@learnsmart.aafve.mongodb.net/quizz-db?retryWrites=true&w=majority
 
 initialize_db(app)
 # Let's call this function witch initializes the routes
