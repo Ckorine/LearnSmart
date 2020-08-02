@@ -14,7 +14,7 @@
       - Share learn material for the subjects<br>
       - View his learn analystics<br>
 # Technical architecture and Technologies
-  -Axios : Automatically set base URL for client & server side
+  -Axios : Automatically set base URL for client & server side<br>
 ![architechture](Screenshot (66)_LI.png)
 # Run the app
     # Run the Frontend React-app
