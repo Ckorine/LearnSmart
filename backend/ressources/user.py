@@ -1,7 +1,6 @@
 import json
 
-from bson import json_util
-from flask import Response, request, jsonify
+from flask import Response, request
 from flask_jwt_extended import jwt_required, get_jwt_identity
 
 from backend.database.models.user_model import User, Score

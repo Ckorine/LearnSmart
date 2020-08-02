@@ -1,8 +1,4 @@
-from mongoengine import CASCADE
-
 from backend.database.db import db
-from backend.database.models.topic_model import Topic
-
 
 
 class Quiz(db.Document):

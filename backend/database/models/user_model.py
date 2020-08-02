@@ -2,7 +2,6 @@ from mongoengine import ReferenceField
 from werkzeug.security import generate_password_hash, check_password_hash
 
 from backend.database.db import db
-from wtforms.fields.html5 import DateField
 
 
 class User(db.Document):

@@ -4,7 +4,7 @@ from backend.ressources.variableTobeGlobal import blacklist
 
 os.environ['ENV_FILE_LOCATION'] = './.env'
 from flask_bcrypt import Bcrypt
-from flask import Flask, Response, request
+from flask import Flask
 from flask_restful import Api
 from backend.database.db import initialize_db
 from backend.ressources.routes import initialize_routes
@@ -44,3 +44,4 @@ def home_view():
     return "<h1>Welcome to Geeks for Geeks</h1>"
 
 
+app.run()
