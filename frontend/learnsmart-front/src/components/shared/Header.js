@@ -2,6 +2,7 @@ import React , { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import App from "../App.js";
 import exitIcon from '../../images/exit.svg';
+import logo from '../../images/newLogo.png';
 import '../../styles/App.css';
 
 export default class Header extends Component{
@@ -13,7 +14,9 @@ export default class Header extends Component{
         console.log(this.props.isLoggedIn)
         return ( 
             <nav className="navbar fixed-top navbar-expand-lg navbar-light bgnav-color " >
-                <a className="navbar-brand text-white t-20"  href="#">LearnSmart</a>
+                <a className="navbar-brand text-white t-20"  href="#">
+                    <span><img className="logo" src={logo} alt=""/>
+                    </span></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

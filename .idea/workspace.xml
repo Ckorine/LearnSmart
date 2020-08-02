@@ -21,10 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="bb3c4823-2713-4209-b276-d37995f0d59e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/ressources/authentification.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ressources/authentification.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/ressources/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ressources/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/learnsmart-front/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/learnsmart-front/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/learnsmart-front/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/learnsmart-front/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/shared/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/shared/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/learnsmart-front/src/styles/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/learnsmart-front/src/styles/App.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="deploy" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,12 +58,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\benja\Documents\GitHub\LearnSmart" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\benja\Documents\GitHub\LearnSmart\backend\database\models" />
       <recent name="C:\Users\benja\Documents\GitHub\LearnSmart\backend\database" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\benja\Documents\GitHub\LearnSmart" />
     </key>
   </component>
   <component name="RunManager">
@@ -90,6 +90,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app" />
         <item itemvalue="Python.app" />
         <item itemvalue="Python.app" />
         <item itemvalue="Python.app" />
@@ -130,22 +131,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="457" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1593115077484" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1594037923015">
+    <state width="1367" height="186" key="GridCell.Tab.0.bottom" timestamp="1596316921397">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594037923015" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1594037923015">
+    <state width="1367" height="186" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596316921397" />
+    <state width="1367" height="186" key="GridCell.Tab.0.center" timestamp="1596316921396">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594037923015" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1594037923014">
+    <state width="1367" height="186" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596316921396" />
+    <state width="1367" height="186" key="GridCell.Tab.0.left" timestamp="1596316921396">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594037923014" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1594037923015">
+    <state width="1367" height="186" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596316921396" />
+    <state width="1367" height="186" key="GridCell.Tab.0.right" timestamp="1596316921397">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594037923015" />
+    <state width="1367" height="186" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596316921397" />
     <state width="672" height="223" key="GridCell.Tab.1.bottom" timestamp="1593167563582">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
