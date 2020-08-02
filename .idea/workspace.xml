@@ -21,21 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bb3c4823-2713-4209-b276-d37995f0d59e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/learnsmart-front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/learnsmart-front/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/learnsmart-front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/learnsmart-front/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/AddQuiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/AddQuiz.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/AddTopic.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/AddTopic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/Logout.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/Logout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/Profil.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/Profil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/Quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/Quiz.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/ShareData.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/ShareData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/Signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/Signup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/SingleChoiceQuiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/SingleChoiceQuiz.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/TopicMaterial.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/TopicMaterial.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/Topics.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/Topics.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/UploadPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/UploadPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/UserStatus.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/learnsmart-front/src/components/UserStatus.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
