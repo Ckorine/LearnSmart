@@ -80,20 +80,20 @@ export default class Profil extends Component {
       <form id= "change-password" className= "form-edit-profil" onSubmit={this.onSubmitPasswordForm}>
 
           <div className="form-box">
-            <label className="label-top">Change Password</label>
+            <h4 className="label-top">Change Password</h4>
             <div className="form-group first-row">
-                <label className="form-label">Actual password: </label> 
+                <label className="form-label t-15">Actual password: </label> 
                 <input type="password" value={this.state.actualPassWord} onChange={this.onChangeActualPassword}
                 className="form-control profil-input" placeholder="Enter actual password"></input>
             </div>
             <div className="form-group second-row">
-                <label className="form-label">New password : </label>
+                <label className="form-label t-15">New password : </label>
                 <input type="password" value={this.state.newPassword} onChange={this.onChangeNewPassword}
                 className="form-control profil-input" placeholder="Enter new password"></input>
             </div>
           </div>
 
-          <div className="btn-row row">
+          <div className="btn-row row mt-3">
             <div className="col-md-6 mt-2">
               <button type="submit" className="btn btn-primary btn-block btn-form">Submit</button>
             </div>
@@ -139,30 +139,30 @@ export default class Profil extends Component {
         <form className= "form-edit-profil" onSubmit={this.onSubmitUserDataForm}>
 
             <div className="">
-            <label className="label-top">Edit Profil</label>
+            <h4  className="label-top" >Edit Profil</h4>
               <div className="form-group first-row">
-                  <label className="form-label">Username : </label> 
+                  <label className="form-label t-15">Username : </label> 
                   <input type="text" value={this.state.userName} onChange={this.onChangeUserName}
                   className="form-control profil-input" placeholder="Enter new username"></input>
               </div>
               <div className="form-group second-row">
-                  <label className="form-label">Email : </label>
+                  <label className="form-label t-15">Email : </label>
                   <input type="email" value={this.state.email} onChange={this.onChangeEmail}
                   className="form-control profil-input" placeholder="Enter new email"></input>
               </div>
             </div>
 
-            <div className="btn-row row">
-              <div className="col-md-6 mt-2">
-                <button type="submit" className="btn btn-primary btn-block btn-form">Submit</button>
-              </div>
+            <div className="btn-row row mb-3">
+             
               <div className="col-md-6 mt-2">
                 <button type="" className="btn btn-danger btn-block btn-form " onClick={() => 
                   this.setState({showUserDataForm: false, showEditProfileBtn: true}) }>
                   Cancel
                 </button>
               </div>
-              
+              <div className="col-md-6 mt-2">
+                <button type="submit" className="btn btn-primary btn-block btn-form">Submit</button>
+              </div>
             </div>
               
         </form>
@@ -178,7 +178,10 @@ export default class Profil extends Component {
         userName: this.state.userName,
         email:this.state.email
     };
-    axios.post('http://localhost:5000/api/changeUserData', userObject)
+    axios.post('http://localhost:5000/api/changeUserData', userObject,{ headers: {
+      'Authorization': `Bearer ${localStorage.getItem('token')}`
+    }
+    })
     .then((res) => {
         if (res.status === 200) {
           this.setState({ dataChanged: true, showUserDataForm: false});
@@ -252,8 +255,13 @@ export default class Profil extends Component {
                     
                   </div>
                   <div className="row">
-                    {this.state.showPasswordForm ? this.showPasswordForm() : null}
-                    {this.state.showUserDataForm ? this.showUserDataForm() : null}
+                    <div className="col-md-3 dummi"></div>
+                    <div className="col-md-6">
+                      {this.state.showPasswordForm ? this.showPasswordForm() : null}
+                      {this.state.showUserDataForm ? this.showUserDataForm() : null}
+                    </div>
+                    <div className="col-md-3 dummi">
+                    </div>
                   </div>
                 </div>
                 {/* <div className="right-side col-md-8">
