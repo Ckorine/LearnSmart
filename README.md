@@ -14,8 +14,8 @@
       - Share learn material for the subjects<br>
       - View his learn analystics<br>
 # Technical architecture and Technologies
-  -Axios : Automatically set base URL for client & server side<br>
-![architechture](Screenshot (66)_LI.jpg)
+  - Axios: Automatically set base URL for client & server side<br>
+![architechture](architechture.jpg)
 # Run the app
     # Run the Frontend React-app
       - open the console in the Project folder ~/LearnSmart/frontend/learnsmart-front
