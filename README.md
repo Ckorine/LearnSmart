@@ -4,18 +4,18 @@
   He will be able to learn with Study material such as Videos and E-book  and can take a quiz on related topic. 
   
 # Features
-  Signup
-   - Signin <br>
-  If logged in user can<br>
-    - Logout<br>
-    - Update his account<br>
-    - View his profile<br>
-    - Choose a Topic, view the related lectures and take a quiz<br>
-    - Share learn material for the subjects<br>
-    - View his learn analystics<br>
+    - User can Signup <br>
+    - User can Signin <br>
+    If logged in user can<br>
+      - Logout<br>
+      - Update his account<br>
+      - View his profile<br>
+      - Choose a Topic, view the related lectures and take a quiz<br>
+      - Share learn material for the subjects<br>
+      - View his learn analystics<br>
 # Technical architecture and Technologies
   -Axios : Automatically set base URL for client & server side
-![alt text](http://url/to/img.png)
+![architechture](Screenshot (66)_LI.png)
 # Run the app
     # Run the Frontend React-app
       - open the console in the Project folder ~/LearnSmart/frontend/learnsmart-front
