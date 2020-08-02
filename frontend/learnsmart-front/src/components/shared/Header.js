@@ -23,7 +23,7 @@ export default class Header extends Component{
                 <div className="nav-item">
                     <Link to="/" className="nav-link text-white t-16" >Home</Link>
                 </div>
-                {(isLoggedIn ===1 && !this.props.isLoggedIn)&& 
+                {localStorage.getItem('token')===null && 
                     <div className="nav-item float-right">
                         <Link to="/sign-in" className="nav-link text-white t-20" id="loginLink">Login</Link>
                     </div>
@@ -31,7 +31,7 @@ export default class Header extends Component{
                 <div className="collapse navbar-collapse justify-content-end mt-3" id="navbarNav">
                     
 
-                        {(isLoggedIn !==1 || this.props.isLoggedIn) &&
+                        {localStorage.getItem('token')!==null &&
                             <ul className="navbar-nav">
                                <li className="nav-item float-right">
                                     <Link to="/profil" className="nav-link text-white t-16" id="profilLink">
