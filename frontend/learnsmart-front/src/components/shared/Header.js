@@ -21,7 +21,7 @@ export default class Header extends Component{
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="nav-item">
-                    <Link to="/" className="nav-link text-white t-16" >Home</Link>
+                    <Link to="/" className="nav-link text-white t-20" >Home</Link>
                 </div>
                 {(isLoggedIn ===1 && !this.props.isLoggedIn)&& 
                     <div className="nav-item float-right">
