@@ -21,7 +21,7 @@ export default class Header extends Component{
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="nav-item">
-                    <Link to="/" className="nav-link text-white t-16" >Home</Link>
+                    <Link to="/" className="nav-link text-white t-20" >Home</Link>
                 </div>
                 {localStorage.getItem('token')===null && 
                     <div className="nav-item float-right">
