@@ -4,15 +4,15 @@
   He will be able to learn with Study material such as Videos and E-book  and can take a quiz on related topic. 
   
 # Features
-    - User can Signup <br>
-    - User can Signin <br>
-    If logged in user can<br>
-      - Logout<br>
-      - Update his account<br>
-      - View his profile<br>
-      - Choose a Topic, view the related lectures and take a quiz<br>
-      - Share learn material for the subjects<br>
-      - View his learn analystics<br>
+    - User can Signup 
+    - User can Signin 
+    If logged in user can
+      - Logout
+      - Update his account
+      - View his profile
+      - Choose a Topic, view the related lectures and take a quiz
+      - Share learn material for the subjects
+      - View his learn analystics
 # Technical architecture and Technologies
   - Axios: Automatically set base URL for client & server side<br>
   - React
