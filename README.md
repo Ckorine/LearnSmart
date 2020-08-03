@@ -23,7 +23,7 @@
   - Python
   - MongoDb
   
-![architechture](architechture.jpg)
+![architechture](architechture.png)
 # Run the app
     # Run the Frontend React-app
       - open the console in the Project folder ~/LearnSmart/frontend/learnsmart-front
