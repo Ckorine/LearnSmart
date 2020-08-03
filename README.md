@@ -68,7 +68,9 @@
       
 # Deploy Flask-app to Heroku
     • Create  and initialise the Procfile >> web: guincorn wsgi:app
-    • Create and initialise wsgi.py file and initialise >> <br> from .app import app <br> app=app
+    • Create and initialise wsgi.py file and initialise >> 
+       from .app import app 
+       app=app
     • Install gunicorn application server
     • Add the requirement.txt file with commnand >> pip freeze > requirement.txt
     • Sign up for Heroku
