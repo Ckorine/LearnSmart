@@ -15,7 +15,7 @@
       - View his learn analystics<br>
 # Technical architecture and Technologies
   - Axios: Automatically set base URL for client & server side<br>
-![Screenshot (66)_LI](Screenshot (66)_LI.jpg)
+![architechture](architechture.jpg)
 # Run the app
     # Run the Frontend React-app
       - open the console in the Project folder ~/LearnSmart/frontend/learnsmart-front
@@ -27,7 +27,7 @@
 # Deploy React-app to Heroku
     # Get npm & node version
     Define engines in package.json >>
-    engines{
+    "engines"{
     "npm":  npm version 
     "node": node version
     }
