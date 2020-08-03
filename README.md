@@ -15,6 +15,14 @@
       - View his learn analystics<br>
 # Technical architecture and Technologies
   - Axios: Automatically set base URL for client & server side<br>
+  - React
+  - Bootstrap
+  - css
+  - Html5
+  - Flask
+  - Python
+  - MongoDb
+  
 ![architechture](architechture.jpg)
 # Run the app
     # Run the Frontend React-app
