@@ -7,7 +7,7 @@ import datetime
 
 
 # Endpoint creates a user document with email and password received from the JSON object sent by the user.
-from myapp.ressources.variableTobeGlobal import blacklist
+from .variableTobeGlobal import blacklist
 
 
 class SignupApi(Resource):
