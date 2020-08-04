@@ -1,12 +1,12 @@
 import os
 
 os.environ['ENV_FILE_LOCATION'] = './.env'
-from .ressources.variableTobeGlobal import blacklist
+from ressources.variableTobeGlobal import blacklist
 from flask_bcrypt import Bcrypt
 from flask import Flask
 from flask_restful import Api
-from .database.db import initialize_db
-from .ressources.routes import initialize_routes
+from database.db import initialize_db
+from ressources.routes import initialize_routes
 from flask_jwt_extended import JWTManager
 from flask_cors import CORS
 
