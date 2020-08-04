@@ -1,1 +1,1 @@
-web: gunicorn  LearnSmart.wsgi:app
+web: gunicorn wsgi:app
